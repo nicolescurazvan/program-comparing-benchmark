@@ -1,3 +1,4 @@
+
 # Program comparing benchmark
 
 This is a script that analyses and compares various programs doing the same
@@ -15,39 +16,39 @@ It requires two files:
 
 
 It has the following syntax:
-python3 benchmark.py [path to the directory] --option -(g)(b)(r)(c)
+> python3 benchmark.py [path to the directory] --option -(g)(b)(r)(c)
 
 where
-* g means Generate and generates inputs
-* b means Build and calls make build
-* r means Run and runs the executables
-* c means Clean and calls make clear
+* g, generates inputs
+* b, calls make build
+* r, runs the executables
+* c, calls make clear
 
 
 
 The config.json file has the following structure:
-{
-    "programs": [
-        program1
-        program2
-        .....
-    ],
-    "type": input type,
-    "inputs": {
-        .....
-    }
-}
+> {
+>   "programs": [
+>       program1
+>       program2
+>       .....
+>   ],
+>   "type": input type,
+>   "inputs": {
+>       .....
+>   }
+> }
 
 There are eight input file types:
 - "int", where the file contains a 31-bit unsigned integer
 - "float", where the file contains a 64-bit float
 - "string", where the file contains an ASCII string which can have spaces
  For these, each input looks like this:
-    {
-        "name": name,
-        "min": min,
-        "max": max
-    }
+> {
+>    "name": name,
+>    "min": min,
+>    "max": max
+> }
  where "min" is the minimum value (or length of the string) and "max" is the
  maximum value (or length of the string).
 - "vector<int>", where the file contains the number of elements on the first 
@@ -57,13 +58,13 @@ line and the 64-bit float elements, separated by spaces, on the second line
 - "vector<string>", where the file contains the number of strings on the first
 line and the strings, one per line
  For these, each input looks like this:
-    {
-        "name": name,
-        "min_length": min-length,
-        "max_length": max-length,
-        "min": min,
-        "max": max
-    }
+> {
+>     "name": name,
+>     "min_length": min-length,
+>     "max_length": max-length,
+>     "min": min,
+>     "max": max
+> }
  where "min_length" is the minimum length of the vector, "max_length" is the 
  maximum length of the vector, "min" is the minimum value (or length of the
  string) and "max" is the maximum value (or length of the string).
@@ -74,15 +75,15 @@ separated by spaces
 columns on the first line and the rows, one row per line, with float elements
 separated by spaces
  For these, each input looks like this:
-    {
-        "name": name,
-        "min_rows": min-rows,
-        "max_rows": max-rows,
-        "min_cols": min-cols,
-        "max_cols": max-cols,
-        "min": min,
-        "max": max
-    }
+> {
+>   "name": name,
+>   "min_rows": min-rows,
+>   "max_rows": max-rows,
+>   "min_cols": min-cols,
+>   "max_cols": max-cols,
+>   "min": min,
+>   "max": max
+> }
  where "min_rows" is the minimum number of rows in the matrix, "max_rows" is
  the maximum number of rows in the matrix, "min_cols" is the minimum number 
  of columns in the matrix, "max_cols" is the maximum number of columns in the
