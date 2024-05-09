@@ -1,0 +1,46 @@
+{
+    "programs":
+    [
+        "mergesort",
+        "quicksort"
+    ],
+    "type": "vector<int>",
+    "inputs":
+    [
+        {
+            "name": "input/input1.txt",
+            "min_length": 30,
+            "max_length": 100,
+            "min": 0,
+            "max": 1000000
+        },
+        {
+            "name": "input/input2.txt",
+            "min_length": 50,
+            "max_length": 200,
+            "min": 0,
+            "max": 1000000
+        },
+        {
+            "name": "input/input3.txt",
+            "min_length": 100,
+            "max_length": 300,
+            "min": 0,
+            "max": 1000000
+        },
+        {
+            "name": "input/input4.txt",
+            "min_length": 500,
+            "max_length": 1000,
+            "min": 0,
+            "max": 1000000
+        },
+        {
+            "name": "input/input5.txt",
+            "min_length": 5000,
+            "max_length": 10000,
+            "min": 0,
+            "max": 1000000
+        }
+    ]
+}
