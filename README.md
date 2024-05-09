@@ -1,4 +1,4 @@
-Program comparing benchmark
+# Program comparing benchmark
 
 This is a script that analyses and compares various programs doing the same
 thing against random inputs given as files. It works as follows:
