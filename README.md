@@ -54,7 +54,7 @@ There are eight input file types:
     "max": max
 }`
 
- where "min" is the minimum value (or length of the string) and "max" is the
+ where `min` is the minimum value (or length of the string) and `max` is the
  maximum value (or length of the string).
 
 - `vector<int>`, where the file contains the number of elements on the first 
@@ -74,9 +74,9 @@ line and the strings, one per line
     "max": max
 }`
 
- where "min_length" is the minimum length of the vector, "max_length" is the 
- maximum length of the vector, "min" is the minimum value (or length of the
- string) and "max" is the maximum value (or length of the string).
+ where `min_length` is the minimum length of the vector, `max_length` is the 
+ maximum length of the vector, `min` is the minimum value (or length of the
+ string) and `max` is the maximum value (or length of the string).
 
 - `matrix<int>`, where the file contains the number of rows and the number of
 columns on the first line and the rows, one row per line, with integer elements
@@ -97,8 +97,8 @@ separated by spaces
     "max": max
 }`
 
- where "min_rows" is the minimum number of rows in the matrix, "max_rows" is
- the maximum number of rows in the matrix, "min_cols" is the minimum number 
- of columns in the matrix, "max_cols" is the maximum number of columns in the
- matrix, "min" is the minimum value (or length of the string) and "max" is the
+ where `min_rows` is the minimum number of rows in the matrix, `max_rows` is
+ the maximum number of rows in the matrix, `min_cols` is the minimum number 
+ of columns in the matrix, `max_cols` is the maximum number of columns in the
+ matrix, `min` is the minimum value (or length of the string) and `max` is the
  maximum value (or length of the string)

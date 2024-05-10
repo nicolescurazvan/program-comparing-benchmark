@@ -1,0 +1,41 @@
+{
+    "programs":
+    [
+        "maxdiv1",
+        "maxdiv2"
+    ],
+    "type": "int",
+    "inputs":
+    [
+        {
+            "name": "input/input1.txt",
+            "min": 10000,
+            "max": 20000
+        },
+        {
+            "name": "input/input2.txt",
+            "min": 20000,
+            "max": 30000
+        },
+        {
+            "name": "input/input3.txt",
+            "min": 20000,
+            "max": 30000
+        },
+        {
+            "name": "input/input4.txt",
+            "min": 50000,
+            "max": 70000
+        },
+        {
+            "name": "input/input5.txt",
+            "min": 50000,
+            "max": 70000
+        },
+        {
+            "name": "input/input6.txt",
+            "min": 150000,
+            "max": 200000
+        }
+    ]
+}
