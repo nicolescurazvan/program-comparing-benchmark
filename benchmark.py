@@ -89,33 +89,15 @@ def main():
     pwd = os.getcwd()
     os.chdir(sys.argv[1])
     config = getInfo()
-    generate(config["inputs"], config["type"])
-    os.system("make build")
-    run(config)
-    os.system("make clean")
+    if 'g' in sys.argv[2]:
+        generate(config["inputs"], config["type"])
+    if 'b' in sys.argv[2]:
+        os.system("make build")
+    if 'r' in sys.argv[2]:
+        run(config)
+    if 'c' in sys.argv[2]:
+        os.system("make clean")
     os.chdir(pwd)
-    '''file = {
-        "min_length": 3,
-        "max_length": 5,
-        "min": 10,
-        "max": 20
-    }
-    file2 = {
-        "min_rows": 3,
-        "max_rows": 4,
-        "min_cols": 3,
-        "max_cols": 5,
-        "min": 5,
-        "max": 20
-    }
-    print(Int(file))
-    print(Float(file))
-    print(String(file))
-    print(Vector(Int, file))
-    print(Vector(Float, file))
-    print(Vector(String, file))
-    print(Matrix(Int, file2))
-    print(Matrix(Float, file2))'''
 
 if __name__ == "__main__":
     main()
