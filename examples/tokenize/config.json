@@ -1,0 +1,40 @@
+{
+    "programs":
+    [
+        "token"
+    ],
+    "type": "string",
+    "inputs":
+    [
+        {
+            "name": "input/input1.txt",
+            "min": 1000,
+            "max": 2000
+        },
+        {
+            "name": "input/input2.txt",
+            "min": 5000,
+            "max": 8000
+        },
+        {
+            "name": "input/input3.txt",
+            "min": 15000,
+            "max": 25000
+        },
+        {
+            "name": "input/input4.txt",
+            "min": 25000,
+            "max": 40000
+        },
+        {
+            "name": "input/input5.txt",
+            "min": 25000,
+            "max": 40000
+        },
+        {
+            "name": "input/input6.txt",
+            "min": 60000,
+            "max": 100000
+        }
+    ]
+}
