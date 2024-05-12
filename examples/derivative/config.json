@@ -1,0 +1,39 @@
+{
+    "programs":
+    [
+        "derivative-c",
+        "derivative-cpp"
+    ],
+    "type": "vector<float>",
+    "inputs":
+    [
+        {
+            "name": "input/input1.txt",
+            "min_length": 100,
+            "max_length": 2000,
+            "min": -10000,
+            "max": 10000
+        },
+        {
+            "name": "input/input2.txt",
+            "min_length": 3000,
+            "max_length": 5000,
+            "min": -10000,
+            "max": 10000
+        },
+        {
+            "name": "input/input3.txt",
+            "min_length": 15000,
+            "max_length": 20000,
+            "min": -10000,
+            "max": 10000
+        },
+        {
+            "name": "input/input4.txt",
+            "min_length": 80000,
+            "max_length": 120000,
+            "min": -100000,
+            "max": 100000
+        }
+    ]
+}
