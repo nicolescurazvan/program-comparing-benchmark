@@ -29,17 +29,17 @@ where
 
 The config.json file has the following structure:
 
-> `{
->     "programs": [
->         program1
->         program2
->         .....
->     ],
->     "type": input type,
->     "inputs": {
->         .....
->     }
-> }`
+`{
+    "programs": [
+        program1
+        program2
+        .....
+    ],
+    "type": input type,
+    "inputs": {
+        .....
+    }
+}`
 
 There are eight input file types:
 - `int`, where the file contains a 31-bit unsigned integer
@@ -66,13 +66,13 @@ line and the strings, one per line
 
  For these, each input looks like this:
 
-> `{
->     "name": name,
->     "min_length": min-length,
->     "max_length": max-length,
->     "min": min,
->     "max": max
-> }`
+{
+    "name": name,
+    "min_length": min-length,
+    "max_length": max-length,
+    "min": min,
+    "max": max
+}`
 
  where `min_length` is the minimum length of the vector, `max_length` is the 
  maximum length of the vector, `min` is the minimum value (or length of the
@@ -87,15 +87,15 @@ separated by spaces
 
  For these, each input looks like this:
 
-> `{
->     "name": name,
->     "min_rows": min-rows,
->     "max_rows": max-rows,
->     "min_cols": min-cols,
->     "max_cols": max-cols,
->     "min": min,
->     "max": max
-> }`
+`{
+    "name": name,
+    "min_rows": min-rows,
+    "max_rows": max-rows,
+    "min_cols": min-cols,
+    "max_cols": max-cols,
+    "min": min,
+    "max": max
+}`
 
  where `min_rows` is the minimum number of rows in the matrix, `max_rows` is
  the maximum number of rows in the matrix, `min_cols` is the minimum number 
