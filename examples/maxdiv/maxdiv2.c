@@ -20,6 +20,7 @@ int maxdiv(int n) {
             max = div[i];
         }
     }
+    free(div);
     return max;
 }
 
