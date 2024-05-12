@@ -66,7 +66,7 @@ line and the strings, one per line
 
  For these, each input looks like this:
 
-{
+`{
     "name": name,
     "min_length": min-length,
     "max_length": max-length,
