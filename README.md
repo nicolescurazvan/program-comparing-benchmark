@@ -48,11 +48,11 @@ There are eight input file types:
 
  For these, each input looks like this:
 
-> `{
->     "name": name,
->     "min": min,
->     "max": max
-> }`
+`{
+    "name": name,
+    "min": min,
+    "max": max
+}`
 
  where `min` is the minimum value (or length of the string) and `max` is the
  maximum value (or length of the string).
