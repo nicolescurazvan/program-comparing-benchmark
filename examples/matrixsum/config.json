@@ -1,0 +1,55 @@
+{
+    "programs":
+    [
+        "matrixsum"
+    ],
+    "type": "matrix<int>",
+    "inputs":
+    [
+        {
+            "name": "input/input1.txt",
+            "min_rows": 5,
+            "max_rows": 10,
+            "min_cols": 5,
+            "max_cols": 10,
+            "min": 0,
+            "max": 1000000
+        },
+        {
+            "name": "input/input2.txt",
+            "min_rows": 5,
+            "max_rows": 10,
+            "min_cols": 10,
+            "max_cols": 15,
+            "min": 0,
+            "max": 1000000
+        },
+        {
+            "name": "input/input3.txt",
+            "min_rows": 20,
+            "max_rows": 30,
+            "min_cols": 15,
+            "max_cols": 25,
+            "min": 0,
+            "max": 1000000
+        },
+        {
+            "name": "input/input4.txt",
+            "min_rows": 100,
+            "max_rows": 150,
+            "min_cols": 100,
+            "max_cols": 150,
+            "min": 0,
+            "max": 1000000
+        },
+        {
+            "name": "input/input5.txt",
+            "min_rows": 500,
+            "max_rows": 1000,
+            "min_cols": 50,
+            "max_cols": 100,
+            "min": 0,
+            "max": 1000000
+        }
+    ]
+}
