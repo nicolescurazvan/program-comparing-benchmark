@@ -1,0 +1,62 @@
+{
+    "programs":
+    [
+        "dictsort1-c",
+        "dictsort1-cpp",
+        "dictsort2-c",
+        "dictsort2-cpp"
+    ],
+    "type": "vector<string>",
+    "inputs":
+    [
+        {
+            "name": "input/input1.txt",
+            "min_length": 60,
+            "max_length": 100,
+            "min": 10,
+            "max": 20
+        },
+        {
+            "name": "input/input2.txt",
+            "min_length": 150,
+            "max_length": 200,
+            "min": 10,
+            "max": 20
+        },
+        {
+            "name": "input/input3.txt",
+            "min_length": 150,
+            "max_length": 200,
+            "min": 30,
+            "max": 50
+        },
+        {
+            "name": "input/input4.txt",
+            "min_length": 1000,
+            "max_length": 1500,
+            "min": 10,
+            "max": 20
+        },
+        {
+            "name": "input/input5.txt",
+            "min_length": 5000,
+            "max_length": 10000,
+            "min": 10,
+            "max": 20
+        },
+        {
+            "name": "input/input6.txt",
+            "min_length": 20000,
+            "max_length": 25000,
+            "min": 10,
+            "max": 20
+        },
+        {
+            "name": "input/input7.txt",
+            "min_length": 20000,
+            "max_length": 25000,
+            "min": 30,
+            "max": 50
+        }
+    ]
+}
