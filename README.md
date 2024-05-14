@@ -2,7 +2,11 @@
 # Program comparing benchmark
 
 This is a script that analyses and compares various programs doing the same
-thing against random inputs given as files. It works as follows:
+thing against random inputs given as files. The programs should take one argument
+which represents the file they get their data from and they don't display 
+anything. 
+
+It works as follows:
 
 * Generates some input files, according to the type specified in config.json.
 * Compiles the programs using a custom Makefile, called Makefile.
