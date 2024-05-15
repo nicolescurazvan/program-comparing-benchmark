@@ -21,9 +21,10 @@ It requires two files:
 
 It has the following syntax:
 
-`python3 benchmark.py [path to the directory] -(g)(b)(r)(c)`
+`python3 benchmark.py [path to the directory] -(i)(g)(b)(r)(c)`
 
 where
+* i, stands for interactive
 * g, generates inputs
 * b, calls make build
 * r, runs the executables
